@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    cursor: default;
+}
+
+.main{
+    background: #2B2B3F;
+    height: 100vh;
+}
+
+.header{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Language{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 100%;
+    margin-bottom: 20px;
+    top: 0;
+    transform: translateY(60%);
+}
+
+.Language h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1.5;
+    color: #fff;
+    padding-right: 8px;
+}
+
+.Language_iconStaff{
+    display: block;
+    background-color: #D80027;
+    padding: 4px;
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.Language_iconStaff .star{
+    color:#FFDA44;
+    font-size: 1rem;
+}
+
+.Language_iconbutton{
+    color: #fff;
+    font-size: 12px;
+}
+
+.header_logo{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: max-content;
+}
+
+.header_logo_vcpmc{
+    border-radius: 50%;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.header_signin{
+    display: block;
+    height: 200px;
+    width: 400px;
+    margin-top: 10px;
+    transform: translateX(100%);
+}
+
+.header_signin h2{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.header_signin_username{
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.header_signin_username h3{
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    padding: 8px 0;
+}
+
+.header_signin_username_1{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #2B2B3F;
+    border: 1px solid #727288;
+    color: #fff;
+}
+
+.header_signin_username_1:focus{
+    border: 3px solid #347AFF;
+}
+
+.header_signin_passwork{
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.header_signin_passwork h3{
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    padding: 8px 0;
+}
+
+.header_signin_username_2{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #2B2B3F;
+    border: 1px solid #727288;
+    color: #fff;
+}
+
+.header_signin_username_2:focus{
+    border: 3px solid #347AFF;
+}
+
+.header_signin_rememberpassword{
+    display: flex;
+    margin-left: 35%;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.header_signin_rememberpassword_checkbox{
+    display: block;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.btndangnhap{
+    display: block;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+    cursor: pointer;;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #FF7506;
+    box-shadow: none;
+    border: none;
+    margin-left: 44%;
+}
+
+.footer_forgotpassword a{
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10%;
+    letter-spacing: 1.2;
+}

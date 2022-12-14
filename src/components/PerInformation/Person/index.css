@@ -1,0 +1,142 @@
+.imformation{
+    display: flex;
+    
+    width: 100%;
+    height: 90vh;
+    background-color: #2B2B3F;
+}
+
+.menu_bar{
+    display: block;
+    width: 100%;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: #020220;
+}
+
+/* menu bar */
+
+.logo_vcpmc{
+    display: block;
+    width: 80px;
+    height: 70px;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.menu_bar_list{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.menu_bar_list_ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px 0;
+}
+
+.menu_bar_list_li{
+    display: block;
+    color: #fff;
+}
+
+.menu_bar_list_li-freme{
+    display: block;
+    text-align: center;
+}
+
+.fa-solid,
+.fa-regular{
+    display: block;
+    color: #C8C8DB;
+}
+
+
+.menu_bar-ware{
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #C8C8DB;
+}
+
+/* content */
+
+.personinformation_header{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    transform: translateX(72%);
+}
+
+.Language{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    top: 0;
+    transform: translateY(60%);
+}
+
+.Language h2 {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1.5;
+    color: #fff;
+    padding-right: 8px;
+}
+
+.Language_iconStaff{
+    display: block;
+    background-color: #D80027;
+    padding: 2px;
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.Language_iconStaff .star{
+    color:#FFDA44;
+    font-size: 10px;
+    top: 0;
+    transform: translateY(-50%);
+    margin-left: 2px;
+}
+
+.Language_iconbutton{
+    color: #fff;
+    font-size: 12px;
+}
+
+.personinformation_user{
+    display: flex;
+}
+
+.images_user{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.user_name-custom{
+    display: block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 10px;
+    margin: 25px 0 2px 15px;
+}
+
+.admin{
+    display: block;
+    color: #B65100;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 2px 0 0 15px;
+}
