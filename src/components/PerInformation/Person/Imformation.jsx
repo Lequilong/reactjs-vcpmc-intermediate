@@ -2,6 +2,8 @@ import React from 'react'
 import './index.css'
 import '../GridCss/grid.css'
 import logo from '../Logo/logo.jpg'
+import avatar from '../Logo/avt.jpg'
+import avatar1 from '../Logo/avt2.jpg'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -75,7 +77,7 @@ function PersonalInformation() {
                         </div>
                         <div className="personinformation_user">
                             <div className="personinformation_user-images">
-                                <img src= {logo} alt={logo} className = 'images_user'/>
+                                <img src= {avatar} alt={avatar} className = 'images_user'/>
                             </div>
                             <div className="personinformation_username">
                                 <h3 className='user_name-custom'>Ng.Tuyết</h3>
@@ -84,7 +86,54 @@ function PersonalInformation() {
                         </div>
                     </div>
                     <div className="personinformation_content">
-                        
+                        <div className="personinformation_content-images l-3">
+                            <h2 className='personinformation_content-title'>Thông Tin Cơ Bản</h2>
+                            <div className="personinformation_content-images-icon">
+                                <img src= {avatar1} alt={avatar1} className = 'images_avt'/>
+                                <i class="fa-solid fa-camera icons-camera"></i>
+                            </div>
+                            <h2 className='personinformation_content-username'>Tuyết Nguyễn</h2>
+                        </div>
+                        <div className="personinformation_content-curriculumvitae l-6">
+                            <div className="personinformation_content-curriculumvitae-listname row">
+                                <div className="personinformation_content-curriculumvitae-listname-firtsname">
+                                    <h3 className='firtsname'>Họ : </h3>
+                                    <input type="text" placeholder='Nhập Họ' className='input-information'/>
+                                </div>
+                                <div className="personinformation_content-curriculumvitae-listname-lastname">
+                                    <h3 className='lastname'>Tên : </h3>
+                                    <input type="text" placeholder='Nhập Tên'className='input-information'/>
+                                </div>
+                            </div>
+                            <div className="personinformation_content-curriculumvitae-listname row">
+                                <div className="personinformation_content-curriculumvitae-listname-firtsname">
+                                    <h3 className='firtsname'>Ngay Sinh : </h3>
+                                    <input type="text" placeholder='Nhập Họ' className='input-information'/>
+                                </div>
+                                <div className="personinformation_content-curriculumvitae-listname-lastname">
+                                    <h3 className='lastname'>SĐT : </h3>
+                                    <input type="text" placeholder='Nhập Tên'className='input-information'/>
+                                </div>
+                            </div>
+                            <div className="personinformation_content-curriculumvitae-email">
+                                <h3 className='curriculumvitae-h3-email'>Nhập Email : </h3>
+                                <input type="text" placeholder='Nhập email'className='input-email'/>
+                            </div>
+
+                            <div className="personinformation_content-curriculumvitae-email">
+                                <h3 className='curriculumvitae-h3-email'>Tên Đăng Nhập : </h3>
+                                <input type="text" placeholder='Nhập Tên Đăng Nhập'className='input-email'/>
+                            </div>
+
+                            <div className="personinformation_content-curriculumvitae-email">
+                                <h3 className='curriculumvitae-h3-email'>Phần Quyết : </h3>
+                                <input type="text" placeholder='Nhập Tên Đăng Nhập'className='input-phanquyet'/>
+                            </div>
+
+                        </div>
+                        <div className="personinformation_content-menu l-3">
+
+                        </div>
                     </div>
                     <div className="personinformation_footer">
                         
